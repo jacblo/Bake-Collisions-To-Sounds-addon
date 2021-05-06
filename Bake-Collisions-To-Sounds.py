@@ -107,7 +107,7 @@ class BakeSounds(Operator):
     Thresh: FloatProperty(
             name="Threshold",
             description="Threshold for acceleration change for a sound to be added",
-            default=0.01,
+            default=0.1,
             min=0.0
             )
     
