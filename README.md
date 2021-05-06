@@ -20,5 +20,5 @@ Lets the user bake Object Collisions To Sounds in the Sequencer in Blender 3d
  - In the 3d viewport in the object menu press "Bake Collisions To Sounds"
  - When you are done changing the values and adding sound files press ok and wait for it to finish
  
- If you want to remove sounds go into the sequencer editor and you will see the clips
+ If you want to edit or remove sounds go into the sequencer editor and you will see the clips
  
