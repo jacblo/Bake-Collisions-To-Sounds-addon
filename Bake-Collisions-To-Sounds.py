@@ -25,8 +25,8 @@ from bpy.types import Operator
 
 thresh=0.01
 sounds=[]
-frameStart=bpy.context.scene.frame_start
-frameEnd=bpy.context.scene.frame_end
+frameStart=0
+frameEnd=0
 trackSfx=0
 frameOffsets= []
 volume=2
@@ -114,13 +114,13 @@ class BakeSounds(Operator):
     Start_Frame: IntProperty(
             name="Start Frame",
             description="Frame to start at",
-            default=bpy.context.scene.frame_start,
+            default=0,
             )
 
     End_Frame: IntProperty(
             name="End frame",
             description="Frame to end at",
-            default=bpy.context.scene.frame_end,
+            default=250,
             )
                 
     Files_Choice: StringProperty(
