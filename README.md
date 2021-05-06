@@ -3,22 +3,28 @@ Lets the user bake Object Collisions To Sounds in the Sequencer in Blender 3d
 
 **Instalation**
 ---------------
- - Download the addon.py
- - Open Blender
- - Press Edit -> Prefrences on the top left
- - Go to the addon page
- - Press the install button
- - Navigate to where you downloaded the addon.py file to
- - select it and press install
- - Enable the check-box next to the addon
+ - Download: addon.py
+ - Open Blender.
+ - Edit > Prefrences at the top left.
+ - Open the Addons page.
+ - Click the Install button.
+ - Navigate to the downloaded addon.py file.
+ - Select the addon.py file and click Install.
+ - Enable the checkbox next to the addon.
 
 
 **Usage**
 ---------
- - Do whatever rigid body simulations you will do and bake them to keyframes
- - Select the objects You Want To Bake
- - In the 3d viewport in the object menu press "Bake Collisions To Sounds"
- - When you are done changing the values and adding sound files press ok and wait for it to finish
+ - Perform a rigid body simulation or movement and bake it to keyframes.
+ - Select the objects you want to bake.
+ - In the 3d viewport, in the object menu, click "Bake Collisions To Sounds".
+ - Configure the settings in the popup window, and click OK.
  
- If you want to edit or remove sounds go into the sequencer editor and you will see the clips
+ If you want to edit or remove sounds, open the Sequencer editor. The clips appear in the timeline.
  
+
+
+**Tips**
+--------
+ - By trial and error, adjust the weights of the objects and the Threshold value for the Bake-Collisions-To-Sounds addon, for best results.
+ - The volume setting is 1.0 by default, but adjust the value by trial and error for best results. Values such as 20 or 40 might work better because the volume is lowered based on the collision velocity.
