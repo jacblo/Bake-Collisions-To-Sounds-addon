@@ -3,12 +3,12 @@ Lets the user bake Object Collisions To Sounds in the Sequencer in Blender 3d
 
 **Instalation**
 ---------------
- - Download: Bake-Collisions-From-Sounds.py
+ - Download: Bake-Collisions-To-Sounds.py
  - Open Blender.
  - Edit > Prefrences at the top left.
  - Open the Addons page.
  - Click the Install button.
- - Navigate to the downloaded Bake-Collisions-From-Sounds.py file.
+ - Navigate to the downloaded Bake-Collisions-To-Sounds.py file.
  - Select the addon.py file and click Install.
  - Enable the checkbox next to the addon.
 
